@@ -19,5 +19,10 @@ public class BulletDamage : MonoBehaviour
             }
            
         }
+
+        if (hit.tag == "Floor")
+        {
+            Object.Destroy(gameObject);
+        }
     }
 }

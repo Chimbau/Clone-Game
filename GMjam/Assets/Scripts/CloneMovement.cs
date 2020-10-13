@@ -34,6 +34,7 @@ public class CloneMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         PlayerPosition = GameObject.FindGameObjectWithTag("Player").transform;
+        PlayerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<Movement>();
         getPlayerVariables();
     }
 

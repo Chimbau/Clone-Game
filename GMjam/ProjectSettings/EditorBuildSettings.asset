@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/PrototipoDeFase.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Level1.unity
+    guid: 47aa99fdce2b0884fac7ef30ddb54cdf
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: da5225fe61c4ee245801ca76e44ec4a9
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 70eb7a3773a823545a5f1306a4581fb7
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 63fd21d091589144a9580dfff9e1d579
   m_configObjects: {}
